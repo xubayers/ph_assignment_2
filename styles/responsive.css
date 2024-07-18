@@ -16,6 +16,9 @@
     .running {
         margin: auto 2rem;
     }
+    .bmi-calc {
+        margin: 7rem 2rem;
+    }
 }
 @media  screen and (max-width: 992px) {
     .nav-bar {
