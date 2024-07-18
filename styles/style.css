@@ -49,14 +49,12 @@ h1, h2, h3, h4, h5, h6 {
 .flex {
     display: flex;
 }
-.justify-center {
-    justify-content: center;
-}
 .item-center {
     align-items: center;
 }
 li {
     list-style: none;
+    letter-spacing: .04rem;
 }
 a {
     text-decoration: none;
@@ -83,7 +81,6 @@ img {
 .nav-bar {
     margin: 3rem auto;
     justify-content: space-between;
-    align-items: center;
 }
 nav .nav-menu {
     display: none;
@@ -99,8 +96,6 @@ nav ul {
     font-size: 1.5rem;
     text-transform: capitalize;
     gap: 5rem;
-    align-items: center;
-    letter-spacing: .04rem;
     font-weight: 300;
 }
 nav ul li {
@@ -110,7 +105,7 @@ nav ul li {
 }
 .current-page {
     background-color: var(--secondery-color);
-    font-weight: bold;
+    font-weight: 500;
     border-radius: 5rem;
 }
 .effect:hover {
@@ -119,7 +114,7 @@ nav ul li {
 }
 /* main style start */
 main {
-    gap: 3rem;
+    gap: 4rem;
     margin: 0 auto;
 }
 main .content {
@@ -145,9 +140,11 @@ main .content button:nth-child(2) {
     max-height: 540px;
     display: flex;
     justify-content: center;
-    margin-left: 4rem;
+    /* margin-left: 4rem; */
 }
 .container {
+    display: flex;
+    justify-content: center;
     position: relative;
     width: 100%;
 }
@@ -194,4 +191,8 @@ main .content button:nth-child(2) {
         font-weight: 500;
         color: var(--para-color);
     }
+}
+/* change habits section */
+.change-habit {
+    margin: 10rem auto;
 }

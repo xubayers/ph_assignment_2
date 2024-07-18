@@ -84,17 +84,23 @@
     }
     .container .cart1 {
         & h4 {
-            font-size: 2rem;
+            font-size: 1.7rem;
         }
         & h5 {
             font-size: 1.2rem;
         }
+        &  .circle {
+            height: 3.5rem;
+            aspect-ratio: 1;
+            background-color: var(--secondery-color);
+        }
     }
     .container .cart2 {
-        right: 4%;
+        padding: 1rem;
+        right: 5%;
         top: 15%;
         & h3 {
-            font-size: 2.8rem;
+            font-size: 2.5rem;
         }
         & h5 {
             font-size: 1rem;
@@ -104,7 +110,7 @@
         max-width: 30rem;
     }
     img {
-        width: 100%;
+        width: 70%;
     }
 
 }
