@@ -13,7 +13,7 @@ html {
     --gray-color: #000000;
     --white: #fff;
     --para-color: rgba(255, 255, 255, 0.5);
-    --font-lz: 4.2rem;
+    --font-lz: 4.5rem;
     --font-md: 1.6rem;
     --font-sm: 1.4rem;
 
@@ -233,3 +233,32 @@ main .content button:nth-child(2) {
     max-width: 23rem;
     margin: 0 auto;
 }
+/* running section style  */
+.running {
+    margin: 0 auto;
+    background-color: #222222;
+    padding: 3rem;
+    border-radius: 1rem;
+    gap: 13rem;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+.run-title {
+    margin: auto 2rem;
+}
+.run-title h2{
+    max-width: 32rem;
+}
+.run-title p {
+    margin: 1.3rem 0 2.5rem 0;
+}
+.runner{
+    height: 35rem;
+    width: 100%;
+    background-image: url("../images/run1.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+
+}
+

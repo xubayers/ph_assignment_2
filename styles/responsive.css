@@ -11,7 +11,10 @@
         right: 5%;
     }
     .change-habit {
-        margin: 10rem 1rem;
+        margin: 10rem 2rem;
+    }
+    .running {
+        margin: auto 2rem;
     }
 }
 @media  screen and (max-width: 992px) {
@@ -41,6 +44,14 @@
     }
     .habits {
         row-gap: 4rem;
+    }
+    .running {
+        gap: 5rem;
+        margin: auto 2rem;
+    }
+    .runner{
+        background-image: url("../images/run3.jpg");
+    
     }
 }
 @media  screen and (max-width: 768px) {
@@ -76,10 +87,19 @@
         right: 12%;
         top: 15%;
     }
+    .running {
+        gap: 2rem;
+    }
+    .run-title h2 {
+         max-width: 22rem;
+    }
+    .runner {
+        max-width: 100rem;
+    }
 }
 @media  screen and (max-width: 576px) {
     :root {
-        --font-lz: 2.5rem;
+        --font-lz: 3rem;
         --font-md: 1.3rem;
         --font-sm: 1.2rem;
     }
@@ -88,11 +108,11 @@
         max-width: 32rem;
     }
     .nav-bar {
-        margin-left:  1rem;
-        margin-right: 1rem;
+        margin-left:  2rem;
+        margin-right: 2rem;
     }
     main {
-        margin: auto 1rem;
+        margin: auto 2rem;
         margin-top: 6rem;
     }
     .container .cart1 {
@@ -134,5 +154,21 @@
     .change-habit .title-and-des div{
         max-width: 38rem;
     }
-
+    .running {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .runner {
+        height: 18rem;
+        width: 100%;
+    }
+    .run-title button {
+        width: 100%;
+    }
+    .run-title h2{
+        max-width: 20rem;
+    }
+    .run-title {
+        margin: 0;
+    }
 }
