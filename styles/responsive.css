@@ -10,6 +10,9 @@
     .container .cart2 {
         right: 5%;
     }
+    .change-habit {
+        margin: 10rem 1rem;
+    }
 }
 @media  screen and (max-width: 992px) {
     .nav-bar {
@@ -29,6 +32,15 @@
     }
     .container .cart2 {
         right: 22%;
+    }
+    .habits {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .change-habit .title-and-des div{
+        max-width: 50rem;
+    }
+    .habits {
+        row-gap: 4rem;
     }
 }
 @media  screen and (max-width: 768px) {
@@ -57,7 +69,7 @@
         font-size: 7rem;
     }
     .container .cart1 {
-        left: 15%;
+        left: 10%;
         bottom: 40%;
     }
     .container .cart2 {
@@ -67,8 +79,9 @@
 }
 @media  screen and (max-width: 576px) {
     :root {
-        --font-md: 1.2rem;
-        --font-sm: 1.0rem;
+        --font-lz: 2.5rem;
+        --font-md: 1.3rem;
+        --font-sm: 1.2rem;
     }
     main .content h1 {
         font-size: 5rem;
@@ -87,7 +100,7 @@
             font-size: 1.7rem;
         }
         & h5 {
-            font-size: 1.2rem;
+            font-size: 1rem;
         }
         &  .circle {
             height: 3.5rem;
@@ -100,10 +113,10 @@
         right: 5%;
         top: 15%;
         & h3 {
-            font-size: 2.5rem;
+            font-size: 2.2rem;
         }
         & h5 {
-            font-size: 1rem;
+            font-size: .8rem;
         }
     }
     main .content p{
@@ -111,6 +124,15 @@
     }
     img {
         width: 70%;
+    }
+    .change-habit {
+        margin: 1rem auto;
+    }
+    .habits {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .change-habit .title-and-des div{
+        max-width: 38rem;
     }
 
 }

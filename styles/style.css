@@ -29,7 +29,13 @@ body {
     color: var(--white);
 }
 /* global accessor style and librarry  */
-
+.font-lz {
+    font-size: var(--font-lz);
+}
+.font-md {
+    font-size: var(--font-md);
+    font-weight: 500;
+}
 .para {
     color: var(--para-color);
     font-size: var(--font-sm);
@@ -119,6 +125,7 @@ main {
 }
 main .content {
     max-width: 530px;
+    align-items: center;
 }
 main .content h1{
     font-size: 7.8rem;
@@ -195,4 +202,34 @@ main .content button:nth-child(2) {
 /* change habits section */
 .change-habit {
     margin: 10rem auto;
+}
+.change-habit .title-and-des div{
+    max-width: 64rem;
+    text-align: center;
+    margin: 0 auto;
+}
+.change-habit .title-and-des h2 {
+    margin-bottom: .8rem;
+}
+.habits {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 5rem;
+    justify-items: center;
+    row-gap: 3rem;
+}
+.habits>div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.habits img {
+    border-radius: 50%;
+}
+.habits h3 {
+    margin: 1.5rem 0 .3rem 0;
+}
+.habits p {
+    max-width: 23rem;
+    margin: 0 auto;
 }
