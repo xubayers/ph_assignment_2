@@ -1,0 +1,103 @@
+@media  screen and (max-width: 1200px) {
+    main {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .nav-bar {
+        margin-left:  2rem;
+        margin-right: 2rem;
+    }
+}
+@media  screen and (max-width: 992px) {
+    .nav-bar {
+        margin-left:  1.5rem;
+        margin-right: 1.5rem;
+    }
+    main {
+        flex-direction: column;
+        margin: auto 6rem;
+        margin-top: 8rem;
+    }
+    main .content {
+        max-width: 600px;
+    }
+    .container .cart1 {
+        left: 18%;
+    }
+    .container .cart2 {
+        right: 22%;
+    }
+}
+@media  screen and (max-width: 768px) {
+    main {
+        margin-top: 8rem;
+        gap: 5rem;
+    }
+    nav ul {
+        display: none;
+    }
+    nav .nav-menu {
+        display: block;
+        font-size: 2.5rem;
+        cursor: pointer;
+    }
+
+    :root {
+        --font-lz: 3.5rem;
+        --font-md: 1.5rem;
+        --font-sm: 1.4rem;
+    }
+    nav .brand-name h2 {
+        font-size:  3rem;
+    }
+    main .content h1{
+        font-size: 7rem;
+    }
+    .container .cart1 {
+        left: 15%;
+        bottom: 40%;
+    }
+    .container .cart2 {
+        right: 12%;
+        top: 15%;
+    }
+}
+@media  screen and (max-width: 576px) {
+    :root {
+        --font-md: 1.2rem;
+        --font-sm: 1.0rem;
+    }
+    main .content h1 {
+        font-size: 4.8rem;
+    }
+    .nav-bar {
+        margin-left:  1rem;
+        margin-right: 1rem;
+    }
+    main {
+        margin: auto 1rem;
+        margin-top: 6rem;
+    }
+    .container .cart1 {
+        & h4 {
+            font-size: 2rem;
+        }
+        & h5 {
+            font-size: 1.2rem;
+        }
+    }
+    .container .cart2 {
+        right: 0%;
+        top: 15%;
+        & h3 {
+            font-size: 2.8rem;
+        }
+        & h5 {
+            font-size: 1rem;
+        }
+    }
+    main .content p{
+        max-width: 30rem;
+    }
+
+}

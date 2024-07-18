@@ -85,6 +85,9 @@ img {
     justify-content: space-between;
     align-items: center;
 }
+nav .nav-menu {
+    display: none;
+}
 nav .brand-name h2 {
     font-size: 3.5rem;
     font-style: italic;
@@ -92,6 +95,7 @@ nav .brand-name h2 {
     cursor: pointer;
 }
 nav ul {
+    display: flex;
     font-size: 1.5rem;
     text-transform: capitalize;
     gap: 5rem;
@@ -116,6 +120,7 @@ nav ul li {
 /* main style start */
 main {
     gap: 3rem;
+    margin: 0 auto;
 }
 main .content {
     max-width: 530px;
@@ -133,7 +138,7 @@ main .content h1 .styles-font {
 main .content button:nth-child(2) {
     background-color: transparent;
     border: 1.5px solid var(--white);
-    margin-left: 2.5rem;
+    margin-left: 2.2rem;
 }
 /* main container  */
 .container .banner-img {
@@ -155,8 +160,8 @@ main .content button:nth-child(2) {
     box-shadow: 0 0 2px #000000;
 }
 .container .cart1 {
-    bottom: 4.5rem;
-    left: 4rem;
+    bottom: 10%;
+    left: 10%;
     display: flex;
     gap: 9px;
     background-color: rgba(255, 255, 255, 0.138);
@@ -178,8 +183,8 @@ main .content button:nth-child(2) {
 
 }
 .container .cart2 {
-    top: 14rem;
-    right: 7.5rem;
+    top: 24%;
+    right: 15%;
 
     & h3 {
         font-size: 3.5rem;
