@@ -294,7 +294,7 @@ main .content button:nth-child(2):hover::after {
 .runner {
   height: 35rem;
   width: 100%;
-  background-image: url("../images/run1.jpg");
+  background-image: url("../images/run1.webp");
   background-size: cover;
   background-position: center;
   border-radius: 1rem;
@@ -327,18 +327,18 @@ main .content button:nth-child(2):hover::after {
 }
 .exarcise .grid-1 div:nth-child(1) {
   background: linear-gradient(to top, #03d08579, #03d08579),
-    url("../images/exercise1.jpg");
+    url("../images/exercise1.webp");
   background-size: cover;
   align-items: end;
 }
 .exarcise .grid-1 div:nth-child(2) {
   background: linear-gradient(to top, #e0390661, #e0390661),
-    url("../images/exercise2.png");
+    url("../images/exercise2.webp");
   background-size: cover;
 }
 .exarcise .grid-1 div:nth-child(3) {
   background: linear-gradient(to top, #00000061, #00000061),
-    url("../images/exercise3.png");
+    url("../images/exercise3.webp");
   background-size: cover;
   align-items: end;
 }
@@ -348,13 +348,17 @@ main .content button:nth-child(2):hover::after {
 }
 .exarcise .grid-2 div:nth-child(1) {
   background: linear-gradient(to top, #00000061, #00000061),
-    url("../images/exercise4.png");
+    url("../images/exercise4.webp");
   background-size: cover;
   justify-content: end;
 }
+.exarcise .grid-2 div:nth-child(1) h4 {
+  width: 60%;
+  text-align: right;
+}
 .exarcise .grid-2 div:nth-child(2) {
   background: linear-gradient(to top, #06fd0a50, #06fd0a50),
-    url("../images/exercise5.jpg");
+    url("../images/exercise5.webp");
   background-size: cover;
   align-items: end;
 }
@@ -364,7 +368,7 @@ main .content button:nth-child(2):hover::after {
       rgba(27, 135, 156, 0.409),
       rgba(27, 135, 156, 0.409)
     ),
-    url("../images/exercise6.jpg");
+    url("../images/exercise6.webp");
   background-size: cover;
   align-items: end;
 }
@@ -467,27 +471,27 @@ main .content button:nth-child(2):hover::after {
 
 .trainers .trainer-1 {
   background: linear-gradient(0deg, #0000003b, #0000003b),
-    url("../images/trainer1.png");
+    url("../images/trainer1.webp");
 }
 .trainers .trainer-2 {
   background: linear-gradient(0deg, #0000003b, #0000003b),
-    url("../images/trainer2.png");
+    url("../images/trainer2.webp");
 }
 .trainers .trainer-3 {
   background: linear-gradient(0deg, #0000003b, #0000003b),
-    url("../images/trainer3.png");
+    url("../images/trainer3.webp");
 }
 .trainers .trainer-4 {
   background: linear-gradient(0deg, #0000003b, #0000003b),
-    url("../images/trainer4.png");
+    url("../images/trainer4.webp");
 }
 .trainers .trainer-5 {
   background: linear-gradient(0deg, #0000003b, #0000003b),
-    url("../images/trainer5.png");
+    url("../images/trainer5.webp");
 }
 .trainers .trainer-6 {
   background: linear-gradient(0deg, #0000003b, #0000003b),
-    url("../images/trainer6.png");
+    url("../images/trainer6.webp");
 }
 .trainers .trainer {
   background-size: cover;
@@ -502,7 +506,6 @@ main .content button:nth-child(2):hover::after {
 .trainers .trainer h4 {
   font-size: calc(var(--font-md) + 0.5rem);
   margin-bottom: 0.3rem;
-  text-overflow: ellipsis;
 }
 .trainers .trainer p {
   font-size: calc(var(--font-sm) + 2px);
