@@ -1,307 +1,315 @@
-@media  screen and (max-width: 1200px) {
-    main {
-        margin-left: 2rem;
-        margin-right: 2rem;
-    }
-    .nav-bar {
-        margin-left:  2rem;
-        margin-right: 2rem;
-    }
-    .container .cart2 {
-        right: 5%;
-    }
-    .change-habit {
-        margin: 10rem 2rem;
-    }
-    .running {
-        margin: auto 2rem;
-    }
-    .bmi-calc {
-        margin: 7rem auto;
-    }
-    .calc .item{
-        margin: 0 2rem;
-    }
-    .calc .inputs {
-        max-width: 50rem;
-    }
-    .trainers {
-        margin: 0 2rem;
-    }
-    .brand-and-links {
-        margin: 0 2rem;
-        gap: 10rem;
-    }
-    .navs {
-        gap: 9rem;
-    }
-    .all-right {
-        margin: 0 2rem;
-        margin-top: 5rem;
-    }
-    .training-exercises {
-        margin: 9rem 2rem 7rem 2rem;
-    }
+@media screen and (max-width: 1200px) {
+  main {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .nav-bar {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .container .cart2 {
+    right: 5%;
+  }
+  .change-habit {
+    margin: 10rem 2rem;
+  }
+  .running {
+    margin: auto 2rem;
+  }
+  .bmi-calc {
+    margin: 7rem auto;
+  }
+  .calc .item {
+    margin: 0 2rem;
+  }
+  .calc .inputs {
+    max-width: 50rem;
+  }
+  .trainers {
+    margin: 0 2rem;
+  }
+  .brand-and-links {
+    margin: 0 2rem;
+    gap: 10rem;
+  }
+  .navs {
+    gap: 9rem;
+  }
+  .all-right {
+    margin: 0 2rem;
+    margin-top: 5rem;
+  }
+  .training-exercises {
+    margin: 9rem 2rem 7rem 2rem;
+  }
 }
-@media  screen and (max-width: 875px) {
-    .nav-bar {
-        margin-left:  1.5rem;
-        margin-right: 1.5rem;
-    }
-    main {
-        flex-direction: column;
-        margin: auto 6rem;
-        margin-top: 8rem;
-    }
-    main .content {
-        max-width: 600px;
-    }
-    .container .cart1 {
-        left: 18%;
-    }
-    .container .cart2 {
-        right: 22%;
-    }
-    .habits {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .change-habit .title-and-des div{
-        max-width: 50rem;
-    }
-    .habits {
-        row-gap: 4rem;
-    }
-    .running {
-        gap: 5rem;
-        margin: auto 2rem;
-    }
-    .runner{
-        background-image: url("../images/run3.jpg");
-    }
-    .calc .item {
-        flex-direction: column;
-        gap: 5rem;
-    }
-    .calc .inputs {
-        max-width: 100%;
-    }
-    .bmi-calc .caption {
-        max-width: 65rem;
-        margin: 0 2rem;
-    }
-    .calc .item td, .calc .item th {
-        padding: 1rem 2.5rem;
-    }
-    .team-caption {
-        max-width: 80%;
-    }
-    .brand-and-links {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .brand-and-links .brand p {
-        max-width: 55%;
-    }
-    .navs {
-        justify-content: start;
-        gap: 15rem;
-    }
-    .exarcise .grid-1 div, .exarcise .grid-2 div {
-        min-height: 20rem;
-        padding: 2rem;
-        align-items: end;
-    }  
-    .exarcise .grid-1 div h4, .exarcise .grid-2 div h4 {
-        font-size: calc(var(--font-md) - 3px);
-    }  
-    .exarcise .grid-2 div:nth-child(1) {
-        justify-content: start; 
-    }
+@media screen and (max-width: 875px) {
+  .nav-bar {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  main {
+    flex-direction: column;
+    margin: auto 6rem;
+    margin-top: 8rem;
+  }
+  main .content {
+    max-width: 600px;
+  }
+  .container .cart1 {
+    left: 18%;
+  }
+  .container .cart2 {
+    right: 22%;
+  }
+  .habits {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .change-habit .title-and-des div {
+    max-width: 50rem;
+  }
+  .habits {
+    row-gap: 4rem;
+  }
+  .running {
+    gap: 5rem;
+    margin: auto 2rem;
+  }
+  .runner {
+    background-image: url("../images/run3.jpg");
+  }
+  .calc .item {
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .calc .inputs {
+    max-width: 100%;
+  }
+  .bmi-calc .caption {
+    max-width: 65rem;
+    margin: 0 2rem;
+  }
+  .calc .item td,
+  .calc .item th {
+    padding: 1rem 2.5rem;
+  }
+  .team-caption {
+    max-width: 80%;
+  }
+  .brand-and-links {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .brand-and-links .brand p {
+    max-width: 55%;
+  }
+  .navs {
+    justify-content: start;
+    gap: 15rem;
+  }
+  .exarcise .grid-1 div,
+  .exarcise .grid-2 div {
+    min-height: 20rem;
+    padding: 2rem;
+    align-items: end;
+  }
+  .exarcise .grid-1 div h4,
+  .exarcise .grid-2 div h4 {
+    font-size: calc(var(--font-md) - 3px);
+  }
+  .exarcise .grid-2 div:nth-child(1) {
+    justify-content: start;
+  }
 }
-@media  screen and (max-width: 700px) {
-    main {
-        margin-top: 8rem;
-        gap: 5rem;
-    }
-    nav ul {
-        display: none;
-    }
-    nav .nav-menu {
-        display: block;
-        font-size: 2.2rem;
-        cursor: pointer;
-    }
+@media screen and (max-width: 700px) {
+  main {
+    margin-top: 8rem;
+    gap: 5rem;
+  }
+  nav ul {
+    display: none;
+  }
+  nav .nav-menu {
+    display: block;
+    font-size: 2.2rem;
+    cursor: pointer;
+  }
 
-    :root {
-        --font-lz: 3.5rem;
-        --font-md: 1.5rem;
-        --font-sm: 1.4rem;
-    }
-    nav .brand-name h2 {
-        font-size:  3rem;
-    }
-    main .content h1{
-        font-size: 6rem;
-    }
-    .container .cart1 {
-        left: 10%;
-        bottom: 40%;
-    }
-    .container .cart2 {
-        right: 12%;
-        top: 15%;
-    }
-    .running {
-        gap: 2rem;
-    }
-    .run-title h2 {
-         max-width: 22rem;
-    }
-    .runner {
-        max-width: 100rem;
-    }
-    .trainers {
-        grid-template-columns: repeat(2, 1fr);
-    } 
-    .brand-and-links .brand h1 {
-        font-size: calc(var(--font-lz) + 3rem);
-    }
-    .brand-and-links .brand p {
-        max-width: 85%;
-    }
-    .navs {
-        flex-direction: column;
-        gap: 3rem;
-    }
-    .brand-and-links h3{
-        font-size: calc(var(--font-md) + 1.8rem);
-    }
-    .brand-and-links li {
-        font-size: calc(var(--font-sm) + .5rem);
-    }
-    .all-right h3 {
-        font-size: calc(var(--font-md) + .3rem);
-    }
+  :root {
+    --font-lz: 3.5rem;
+    --font-md: 1.5rem;
+    --font-sm: 1.4rem;
+  }
+  nav .brand-name h2 {
+    font-size: 3rem;
+  }
+  main .content h1 {
+    font-size: 6rem;
+  }
+  .container .cart1 {
+    padding: 1.5rem;
+    left: 10%;
+    bottom: 40%;
+  }
+  .container .cart2 {
+    right: 12%;
+    top: 15%;
+  }
+  .running {
+    gap: 2rem;
+  }
+  .run-title h2 {
+    max-width: 22rem;
+  }
+  .runner {
+    max-width: 100rem;
+  }
+  .trainers {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .brand-and-links .brand h1 {
+    font-size: calc(var(--font-lz) + 3rem);
+  }
+  .brand-and-links .brand p {
+    max-width: 85%;
+  }
+  .navs {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .brand-and-links h3 {
+    font-size: calc(var(--font-md) + 1.8rem);
+  }
+  .brand-and-links li {
+    font-size: calc(var(--font-sm) + 0.5rem);
+  }
+  .all-right h3 {
+    font-size: calc(var(--font-md) + 0.3rem);
+  }
 }
-@media  screen and (max-width: 540px) {
-    :root {
-        --font-lz: 3rem;
-        --font-md: 1.3rem;
-        --font-sm: 1.2rem;
+@media screen and (max-width: 540px) {
+  :root {
+    --font-lz: 3rem;
+    --font-md: 1.3rem;
+    --font-sm: 1.2rem;
+  }
+  main .content h1 {
+    font-size: 4.2rem;
+    max-width: 32rem;
+  }
+  .nav-bar {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  main .content {
+    align-self: flex-start;
+  }
+  main {
+    margin: auto 2rem;
+    margin-top: 6rem;
+  }
+  .container .cart1 {
+    & h4 {
+      font-size: 1.7rem;
     }
-    main .content h1 {
-        font-size: 4.2rem;
-        max-width: 32rem;
+    & h5 {
+      font-size: 1rem;
     }
-    .nav-bar {
-        margin-left:  2rem;
-        margin-right: 2rem;
+    & .circle {
+      font-size: 1.4rem;
+      padding: 0rem;
+      height: 3.5rem;
     }
-    main {
-        margin: auto 2rem;
-        margin-top: 6rem;
+  }
+  .container .cart2 {
+    padding: 1.4rem;
+    right: 5%;
+    top: 10%;
+    & h3 {
+      font-size: 2.5rem;
     }
-    .container .cart1 {
-        & h4 {
-            font-size: 1.7rem;
-        }
-        & h5 {
-            font-size: 1rem;
-        }
-        &  .circle {
-            height: 3.5rem;
-            aspect-ratio: 1;
-            background-color: var(--secondery-color);
-        }
+    & h5 {
+      font-size: 0.8rem;
     }
-    .container .cart2 {
-        padding: 1.4rem;
-        right: 5%;
-        top: 10%;
-        & h3 {
-            font-size: 2.5rem;
-        }
-        & h5 {
-            font-size: .8rem;
-        }
-    }
-    main .content p{
-        max-width: 30rem;
-    }
-    main img {
-        width: 90%;
-    }
-    main .banner-btn button {
-        padding: 1.2rem 2.5rem;
-    }
-    img {
-        width: 70%;
-    }
-    .change-habit {
-        margin: 1rem auto;
-    }
-    .habits {
-        grid-template-columns: repeat(1, 1fr);
-        margin-bottom: 4rem;
-    }
-    .change-habit .title-and-des div{
-        max-width: 38rem;
-    }
-    .calc .item  .font-28 {
-        font-size: 1.5rem;
-    }
-    .running {
-        flex-direction: column;
-        gap: 3rem;
-    }
+  }
+  main .content p {
+    max-width: 30rem;
+  }
+  main img {
+    width: 90%;
+  }
+  main .banner-btn button {
+    padding: 1.7rem 3.3rem;
+  }
+  img {
+    width: 70%;
+  }
+  .change-habit {
+    margin: 1rem auto;
+  }
+  .habits {
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 4rem;
+  }
+  .change-habit .title-and-des div {
+    max-width: 38rem;
+  }
+  .calc .item .font-28 {
+    font-size: 1.5rem;
+  }
+  .running {
+    flex-direction: column;
+    gap: 3rem;
+  }
 
-    .runner {
-        height: 18rem;
-        width: 100%;
-    }
-    .run-title button {
-        width: 100%;
-    }
-    .run-title h2{
-        max-width: 20rem;
-    }
-    .run-title {
-        margin: 0;
-    }
-    .trainers {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .trainers .trainer-1, .trainers .trainer-4 {
-        display: none;
-    }
-    .trainers .trainer-2 {
-        order: 1;
-    }
-    .trainers .trainer-3 {
-        order: 3;
-    }
-    .trainers .trainer-5 {
-        order: 2;
-    }
-    .trainers .trainer-6 {
-        order: 4;
-    }
-    .exarcise .grid-1 {
-        grid-template-columns: 1fr 1fr;
-    }
-    .exarcise .grid-2 {
-        grid-template-columns: .9fr 1.1fr;
-    }
-    .exarcise .grid-1 div, .exarcise .grid-2 div {
-        min-height: 15rem;
-    }   
-    .exarcise .grid-1 div:nth-child(2) {
-        background-position: right;
-
-    }
-    .exarcise .grid-1 div:nth-child(3) {
-        display: none;
-    }
-    .exarcise .grid-2 div:nth-child(3) {
-        display: none;
-    }
-}   
+  .runner {
+    height: 18rem;
+    width: 100%;
+  }
+  .run-title button {
+    width: 100%;
+  }
+  .run-title h2 {
+    max-width: 20rem;
+  }
+  .run-title {
+    margin: 0;
+  }
+  .trainers {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .trainers .trainer-1,
+  .trainers .trainer-4 {
+    display: none;
+  }
+  .trainers .trainer-2 {
+    order: 1;
+  }
+  .trainers .trainer-3 {
+    order: 3;
+  }
+  .trainers .trainer-5 {
+    order: 2;
+  }
+  .trainers .trainer-6 {
+    order: 4;
+  }
+  .exarcise .grid-1 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .exarcise .grid-2 {
+    grid-template-columns: 0.9fr 1.1fr;
+  }
+  .exarcise .grid-1 div,
+  .exarcise .grid-2 div {
+    min-height: 15rem;
+  }
+  .exarcise .grid-1 div:nth-child(2) {
+    background-position: right;
+  }
+  .exarcise .grid-1 div:nth-child(3) {
+    display: none;
+  }
+  .exarcise .grid-2 div:nth-child(3) {
+    display: none;
+  }
+}
