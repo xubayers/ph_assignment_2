@@ -42,6 +42,12 @@
   .training-exercises {
     margin: 9rem 2rem 7rem 2rem;
   }
+  .habits p {
+    width: 16rem;
+  }
+  .package {
+    margin: 0 2rem;
+  }
 }
 @media screen and (max-width: 960px) {
   .nav-bar {
@@ -125,6 +131,9 @@
     overflow: hidden;
     text-overflow: ellipsis;
   }
+  .habits p {
+    width: 20rem;
+  }
 }
 @media screen and (max-width: 700px) {
   main {
@@ -193,6 +202,16 @@
   }
   .all-right h3 {
     font-size: calc(var(--font-md) + 0.3rem);
+  }
+  .package .carts {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .package .carts .cart:nth-child(3) {
+    transform: translateX(50%);
+    -webkit-transform: translateX(50%);
+    -moz-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    -o-transform: translateX(50%);
   }
 }
 @media screen and (max-width: 540px) {
@@ -320,5 +339,14 @@
   }
   .exarcise .grid-2 div:nth-child(3) {
     display: none;
+  }
+  .package .carts {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .package .carts .cart:nth-child(3) {
+    transform: translateX(0%);
+  }
+  .package .carts .cart {
+    max-width: 35rem;
   }
 }
