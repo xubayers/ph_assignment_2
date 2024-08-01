@@ -183,7 +183,6 @@ main .content button:nth-child(2):hover::after {
   max-height: 540px;
   display: flex;
   justify-content: center;
-  /* margin-left: 4rem; */
 }
 .container {
   display: flex;
@@ -206,6 +205,8 @@ main .content button:nth-child(2):hover::after {
   display: flex;
   gap: 9px;
   background-color: rgba(255, 255, 255, 0.138);
+  animation: animateC 4s linear infinite;
+  -webkit-animation: animateC 4s linear infinite;
   & h4 {
     font-size: 2.4rem;
     margin-bottom: 0.3rem;
@@ -227,10 +228,34 @@ main .content button:nth-child(2):hover::after {
     border-radius: 50%;
   }
 }
+@keyframes animateC {
+  0% {
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(7%);
+    -webkit-transform: translateY(7%);
+    -moz-transform: translateY(7%);
+    -ms-transform: translateY(7%);
+    -o-transform: translateY(7%);
+  }
+  100% {
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+  }
+}
 .container .cart2 {
+  animation: animateC 5s 1s linear infinite;
   top: 24%;
   right: 15%;
-
+  -webkit-animation: animateC 5s 1s linear infinite;
   & h3 {
     font-size: 3.5rem;
   }
@@ -297,7 +322,7 @@ main .content button:nth-child(2):hover::after {
 .runner {
   height: 35rem;
   width: 100%;
-  background-image: url("../images/run1.webp");
+  background-image: url("../images/run3.webp");
   background-size: cover;
   background-position: center;
   border-radius: 1rem;
@@ -422,6 +447,9 @@ main .content button:nth-child(2):hover::after {
 }
 .package .carts .cart:hover {
   border: 0.2rem solid var(--secondery-color);
+  & span i {
+    display: block;
+  }
 }
 .package .cart .para {
   margin-top: 1.5rem;
@@ -430,12 +458,47 @@ main .content button:nth-child(2):hover::after {
   font-size: calc(var(--font-md) + 0.3rem);
   text-transform: capitalize;
 }
+.cont h3:nth-child(1) {
+  display: flex;
+}
 .package .cart .cont h3:nth-of-type(2) {
   margin-top: 5rem;
   color: var(--secondery-color);
   border-top: 1px solid gray;
   padding-top: 2rem;
   text-align: center;
+}
+.package .checkBox {
+  background-color: #838383cb;
+  height: 2rem;
+  aspect-ratio: 1;
+  display: block;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 1rem;
+  position: relative;
+  & i {
+    display: none;
+    height: 70%;
+    aspect-ratio: 1;
+    background-color: var(--secondery-color);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+  }
 }
 .package .cart-btn .btn {
   text-transform: capitalize;
