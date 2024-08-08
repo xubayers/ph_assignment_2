@@ -42,9 +42,6 @@
   .training-exercises {
     margin: 9rem 2rem 7rem 2rem;
   }
-  .habits p {
-    width: 16rem;
-  }
   .package {
     margin: 0 2rem;
   }
@@ -73,9 +70,6 @@
   }
   .change-habit .title-and-des div {
     max-width: 50rem;
-  }
-  .habits {
-    row-gap: 4rem;
   }
   .running {
     gap: 5rem;
@@ -132,7 +126,7 @@
     text-overflow: ellipsis;
   }
   .habits p {
-    width: 20rem;
+    width: 80%;
   }
 }
 @media screen and (max-width: 700px) {
@@ -268,15 +262,15 @@
   main .banner-btn button {
     padding: 1.7rem 3.3rem;
   }
-  img {
-    width: 70%;
-  }
   .change-habit {
     margin: 1rem auto;
   }
   .habits {
     grid-template-columns: repeat(1, 1fr);
     margin-bottom: 4rem;
+  }
+  .habits p {
+    width: 55%;
   }
   .change-habit .title-and-des div {
     max-width: 38rem;

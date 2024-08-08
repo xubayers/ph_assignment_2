@@ -282,24 +282,23 @@ main .content button:nth-child(2):hover::after {
   grid-template-columns: repeat(4, 1fr);
   margin-top: 5rem;
   justify-items: center;
-  row-gap: 3rem;
+  gap: 5rem;
 }
 .habits > div {
   text-align: center;
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 100%;
+  align-items: center;
 }
+
 .habits img {
   border-radius: 50%;
 }
 .habits h3 {
   margin: 1.5rem 0 0.3rem 0;
 }
-.habits p {
-  width: 20rem;
-  margin: 0 auto;
-}
+
 /* running section style  */
 .running {
   margin: 0 auto;
